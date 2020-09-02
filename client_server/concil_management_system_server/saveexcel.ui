@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SaveExcel</class>
+ <widget class="QDialog" name="SaveExcel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>975</width>
+    <height>714</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="showGrid">
+      <bool>true</bool>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>组号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>身份证号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>性别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>年龄</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>户口编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>家庭身份</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>居住地址</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>户籍地</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>电话号码</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>民族</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>文化程度</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>职业</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>兵役状况</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>婚姻状况</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>结婚日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>结婚证号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>配偶信息</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>子女数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>子女姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>避孕措施</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>独生子女</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>优抚对象</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>优抚类别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>党员</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>享受低保</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>低保金额</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>退休</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>退休金额</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>医保</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>迁入日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>迁入地区</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>迁出日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>迁出原因</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>备注</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>150</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 87 14pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string>总计：0人</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>500</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>500</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="placeholderText">
+        <string>输入导出报表文件名</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pBtn_save">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>保存</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pBtn_cancel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
