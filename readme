@@ -1,0 +1,14 @@
+This is a consil management system. There are two version. One is stand-alone and the other is Client/Server.
+Functions:
+  Login/Logout
+  Change password
+  Import Data
+  Modify Data
+  Search
+  Report Generation
+  Database Backup
+Premium functions for Client/Server version:
+  User management
+  IP verification and setting
+  TCP communication
+  Multi-thread for server end
